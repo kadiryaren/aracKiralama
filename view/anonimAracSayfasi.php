@@ -118,7 +118,7 @@ $arac = anonimAracSayfasi($db);
                     
                     '.$arac['aciklama_metni'].'
                     </p>
-                    <p class="card-text"><b>150 TL / gun</b></p><a class="btn btn-success" href="rezervasyon.php?aracId='.$arac['id'].'">Rezerve Et</a>
+                    <p class="card-text"><b>'.$arac['gunluk_kiralik_fiyati'].' TL / gun</b></p><a class="btn btn-success" href="rezervasyon.php?aracId='.$arac['id'].'">Rezerve Et</a>
                 </div>
                 </div>
             </div>

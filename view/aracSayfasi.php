@@ -128,7 +128,7 @@ $arac = aracSayfasi($db);
                     
                     '.$arac['aciklama_metni'].'
                     </p>
-                    <p class="card-text"><b>150 TL / gun</b></p><a class="btn btn-success" href="kiralamaSayfasi.php?aracId='.$arac['id'].'">Kirala</a>
+                    <p class="card-text"><b>'.$arac['gunluk_kiralik_fiyati'].' TL / gun</b></p><a class="btn btn-success" href="kiralamaSayfasi.php?aracId='.$arac['id'].'">Kirala</a>
                 </div>
                 </div>
             </div>
